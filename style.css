@@ -1,0 +1,20 @@
+.hero-title {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 4.5rem;
+    }
+
+    .lead {
+        font-size: 1.25rem; /*Default size for smaller screens*/
+    }
+
+}
+
+@media (min-width: 768px) {
+    .lead {
+        font-size: 1.75rem; /*Increase size for larger screens*/
+    }
+}
